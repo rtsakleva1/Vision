@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/location.css">
+    <title>Location</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../js/buttonScrollToTop.js"></script>
+</head>
+
+<body>
+
+    <div id="page-container">
+        <div class="container">
+            <nav class="navbar">
+
+                <a href="../index.html"><img src="../images/visionlogo.png" class="logo" alt="">
+                </a>
+
+                <ul>
+
+                    <li><a href="../index.html" class="home">HOME</a></li>
+                    <li><a href="./joinus.html">JOIN US</a></li>
+                    <li><a href="./program.html">PROGRAM</a></li>
+                    <li><a href="./location.html">LOCATION</a></li>
+                    <li><a href="./aboutus.html">ABOUT US</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+        <button id="btnScrollToTop" onclick="topFunction()">
+            <i class="material-icons">arrow_upward</i>
+        </button>
+
+        <nav id="smooth-scrolling">
+            <a href="#page-container"></a>
+            <a href="#h1-location"></a>
+            <a href="#location-text"></a>
+            <a href="#festival-map"></a>
+            <a href="#footer"></a>
+        </nav>
+
+        <h1 class="h1" id="h1-location">LOCATION</h1>
+
+
+        <div class="iframe">
+            <div class="iframe"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11763.27079488594!2d23.424578228092503!3d42.51668193293341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ab2b1f05d7d845%3A0x20ce41485fc97340!2z0J_Qu9Cw0L3QsA!5e0!3m2!1sbg!2sbg!4v1641670517366!5m2!1sbg!2sbg"
+                    width="600" height="450" allowfullscreen="" loading="lazy">Coordinates: 42.483492, 23.387354
+                    GPS: 42°29'00.6"N 23°23'14.5"E</iframe></div>
+
+
+            <div class="text" id="location-text">
+
+                <p>The location of the festival area is 8 km after the village of Zheleznitsa on the road to the village
+                    of
+                    Plana. <br> It can be reached in any way: by bus, car, taxi, hitchhiking, bike or even on foot along
+                    the trails and wooded labyrinths of Vitosha. <br>From Sofia Public transport you can use busses
+                    70,69
+                    and 98. For those who prefer to come with their own car they should take a turn after the Popova
+                    Mahala
+                    stop (or the Plana sign in general) turns right at the fork, where there is free parking and
+                    entrance to
+                    the festival by the river.For those who prefer to come with their own four-wheeled vehicle, a turn
+                    after
+                    the Popova Mahala stop (or the Plana sign in general) turns right at the fork, where there is free
+                    parking and entrance to the festival by the river. <br> The distance to the festival area from the
+                    center of Sofia is about 35 km.</p>
+
+            </div>
+        </div>
+
+        <div>
+
+            <h2 id="map-headertext">VISION Festival 2k22 / Map </h2>
+            <img src="../images/visionmap.png" class="festival-map" id="festival-map" alt="">
+
+        </div>
+
+        <div class="footer" id="footer">
+            <div id="facebook"><a href="https://www.facebook.com/events/1890872331120895" target="_blank">
+                    <ion-icon name="logo-facebook" class="facebook"></ion-icon>
+                </a>
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            </div>
+
+            <div id="rights-text">
+                <p>&#169 Vision Festival 2022.All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
