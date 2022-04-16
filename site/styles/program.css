@@ -1,0 +1,404 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#page container{
+    position:static;
+}
+
+html{
+
+    background: url(../images/dj.jpg) no-repeat center center fixed; 
+    background-color: rgb(151, 149, 149,0.7);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:block;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+
+    height: 25vh;;
+    width: 100%;
+    background:rgba(0,0, 0, 0.5)
+}
+.logo{
+    width:50vh;
+    height:16vh;
+    padding-left:5vh;
+    padding-bottom: 2vh;
+    padding-top:4vh;
+    padding-right: 5vh;
+}
+.navbar ul{
+    float:right;
+    margin-right:5vh;
+
+}
+.navbar ul li{
+    list-style: none;
+    margin-top:10vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    display:inline-block;
+    line-height: 20vh;
+    position:relative;
+}
+.navbar ul li a{
+    text-align: center;
+    text-decoration:none;
+    color:#fff;
+    font-size:3.5vh;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar ul li a::after{
+
+    content:'';
+    height:0.5vh;
+    width:0;
+    background:#CD3700;
+    position:absolute;
+    left:0;
+    bottom:7vh;
+    transition:1s;
+}
+
+.navbar ul li a:hover::after{
+    width:100%;
+}
+
+a:hover{
+    color:#fff;
+}
+
+a:visited{
+    color:#fff;
+}
+
+.text{
+    display: inline-block;
+    width:100%;
+    position:static;
+    margin-top:10vh;
+    text-align: center;
+    color:#fff;
+    text-shadow: 0.6vh 0.6vh 0.4vh #db7901;
+
+
+}
+
+
+.text p{
+    font-size: 3vh;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+
+}
+
+.footer {
+    height: 10vh;
+    width:100%;
+    position:absolute;
+    margin-left:0;
+    margin-bottom:0;
+    box-sizing: border-box;
+    color:#fff;
+    font-size:2vh;
+    background-color:rgba(0,0, 0, 0.5);
+ }
+
+ #rights-text{
+
+    letter-spacing: 0.1vh;
+
+ }
+
+ .facebook{
+    width:7vh;
+    height:7vh;
+ }
+
+ .festival-map{
+
+    width:75%;
+    height: 120vh;
+    display:flex;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:10vh;
+    margin-bottom: 10vh;
+    border: 2vh outset #CD3700;
+    position: relative;
+
+ }
+
+ .festival-map:hover{
+     
+    border: 2vh outset #03A89E;
+
+ }
+
+ #map-headertext{
+     text-align: center;
+     letter-spacing: 0.1vh;
+     margin:10vh;
+     font-size: 6vh;
+     color:#fff;
+    text-shadow: 0.6vh 0.6vh #CD3700;
+    position:relative;
+
+ }
+
+.line-up {
+    width:100%;
+}
+
+.jc-center{
+    justify-content: space-evenly;
+
+}
+
+.button{
+    text-align:center;
+    margin-top:5vh;
+    margin-bottom: 10vh;
+    width:40vh;
+    padding: 2vh 0;
+    text-decoration:none;
+    font-size: 4vh;
+    border-radius:20vh;
+    font-weight:bold;
+    border: 1vh solid #db7901;
+    background-color: #bf971e;
+    cursor:pointer;
+    transition: 1s;
+}
+
+.button:hover{
+    background-color:rgba(14, 212, 47, 0.288) ;
+ }
+
+
+ 
+ a:link{
+     text-decoration: none;
+     
+ }
+ 
+ a:hover{
+     color:#fff;
+ }
+ 
+ a:visited{
+     color:#fff;
+ }
+ 
+ #line-up-header{
+
+    text-align: center;
+    letter-spacing: 0.3vh;
+    margin:20vh;
+    font-size: 11vh;
+    color:#fff;
+   text-shadow: 0.6vh 0.6vh #CD3700;
+
+ }
+
+ #smooth-scrolling{
+
+    position:fixed;
+    top:50%;
+    right:0;
+    transform:translateY(-50%);
+ }
+
+ #smooth-scrolling>a{
+
+    background-color: rgb(240, 235, 235,0.2) ;
+    border: 0.1vh solid #fff;
+    border-radius:50%;
+    display: block;
+	margin: 10px;
+	height: 1vh;
+	width: 1vh;
+ }
+
+ #btnScrollToTop{
+
+    position:fixed;
+    right:5vh;
+    bottom:12vh;
+    width:7vh;
+    height:7vh;
+    border-radius:50%;
+    border:none;
+    background:#CD3700;
+    box-shadow: 0 0 1vh rgba(0,0,0,1);
+    color: #fff;
+    outline:none;
+    cursor:pointer;
+
+ }
+
+ #btnScrollToTop:active{
+
+    background:#bf971e;
+ }
+
+ #galleryFriday,
+ #gallerySaturday,
+ #gallerySunday{
+
+    width:90%;
+    height:100vh;
+    background: #03A89E;
+    margin:20vh auto;
+    box-sizing:border-box;
+    display:flex;
+    padding:1vh;
+    transition:1s;
+    border-radius: 1em;
+
+ }
+
+ .box1,
+ .box2,
+ .box3{
+
+    height:100%;
+    color:#fff;
+    box-sizing: border-box;
+    padding:25px;
+    border: 1vh solid #03A89E;
+    border-radius: 1em;
+    flex:1;
+
+ }
+
+  /* gallery Friday */
+
+
+ .box1:nth-child(1){
+    background:url(../images/darktrees.jpg)
+ }
+ .box1:nth-child(2){
+    background:url(../images/dj.jpg);
+ }
+ .box1:nth-child(3){
+    background:url(../images/trees2.jpg);
+ }
+ .box1:nth-child(4){
+    background:url(../images/treesbackground.jpg);
+ }
+
+ .box1:nth-child(5){
+    background:url(../images/graybackground.jpg);
+
+ }
+
+  /* gallery Saturday */
+
+ .box2:nth-child(1){
+    background:url(../images/graybackground.jpg);
+ }
+ .box2:nth-child(2){
+    background:url(../images/trees.jpg);
+ }
+ .box2:nth-child(3){
+    background:url(../images/dj.jpg);
+ }
+ .box2:nth-child(4){
+    background:url(../images/graybackground.jpg);
+ }
+ .box2:nth-child(5){
+    background:url(../images/graybackground.jpg);
+ }
+
+  /* gallery Sunday */
+
+ .box3:nth-child(1){
+    background:url(../images/dj.jpg);
+ }
+ .box3:nth-child(2){
+    background:url(../images/trees.jpg);
+ }
+ .box3:nth-child(3){
+    background:url(../images/graybackground.jpg);
+ }
+ .box3:nth-child(4){
+    background:url(../images/trees3.jpg);
+ }
+ .box3:nth-child(5){
+    background:url(../images/treesbackground.jpg);
+ }
+ 
+ h2{
+     text-align: center;
+     font-size:3vh;
+     text-shadow: 0.2vh 0.2vh 0.4vh rgb(19, 18, 18);
+     letter-spacing: 0.1vh;
+     color:#CD3700;
+
+ }
+
+ .box1:hover{
+
+    flex:4;
+    cursor: pointer;
+     
+ }
+ .box2:hover{
+
+    flex:4;
+    cursor: pointer;
+     
+ }
+ .box3:hover{
+
+    flex:4;
+    cursor: pointer;
+     
+ }
+
+ #galleryDivFriday,
+ #galleryDivSaturday,
+ #galleryDivSunday{
+
+    text-align:center;
+    margin:auto;
+    width:70%;
+    height: 10vh;
+    padding-top: 4vh;
+    text-decoration:none;
+    font-size: 5vh;
+    border-radius:20vh;
+    font-weight:bold;
+    letter-spacing: 0.1vh;
+    border: 0.5vh solid #b56576;
+    background-color: #03A89E;
+    background-image: linear-gradient(to right,#03A89E , #CD3700);
+    cursor:pointer;
+    transition: 1s;
+ }
+
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+

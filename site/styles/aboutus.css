@@ -1,0 +1,194 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+
+html { 
+    background: url(../images/darktrees.jpg) no-repeat center center fixed; 
+    background-color: rgb(151, 149, 149);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    scroll-behavior: smooth;
+  }
+
+#container{
+    position:relative;
+}
+
+
+.navbar{
+
+    height: 25vh;;
+    width: 100%;
+    background:rgba(0,0, 0, 0.5);
+}
+.logo{
+    width:50vh;
+    height:16vh;
+    padding-left:5vh;
+    padding-bottom: 2vh;
+    padding-top:4vh;
+    padding-right: 5vh;
+}
+.navbar ul{
+    float:right;
+    margin-right:5vh;
+
+}
+.navbar ul li{
+    list-style: none;
+    margin-top:10vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    display:inline-block;
+    line-height: 20vh;
+    position:relative;
+}
+.navbar ul li a{
+    text-align: center;
+    text-decoration:none;
+    color:#fff;
+    font-size:3.5vh;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar ul li a::after{
+
+    content:'';
+    height:0.5vh;
+    width:0;
+    background:rgba(214, 35, 11, 0.6);
+    position:absolute;
+    left:0;
+    bottom:7vh;
+    transition:1s;
+}
+
+.navbar ul li a:hover::after{
+    width:100%;
+}
+
+
+a:visited{
+    color:#fff;
+}
+.text{
+    display: inline-block;
+    width:100%;
+    position:static;
+    margin-top:10vh;
+    text-align: center;
+    color:#fff;
+
+}
+
+.text h1{
+
+    font-size: 15vh;
+    letter-spacing: 1vh;
+    text-shadow: 1vh 1vh rgba(214, 35, 11, 0.6);
+}
+
+.text p{
+    font-size: 3vh;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5vh;
+    text-align: center;
+    text-shadow: 0.5vh 0.5vh 0.5vh rgba(214, 35, 11, 0.6);
+
+}
+
+
+.footer {
+    height: 10vh;;
+    width:100%;
+    position:absolute;
+    margin-left:0;
+    margin-bottom:0;
+    color:#fff;
+    background-color:rgba(0,0, 0, 0.5);
+ }
+
+ #rights text{
+
+    letter-spacing: 1vh;
+    font-size: 2vh;
+
+ }
+
+ .facebook{
+     width:7vh;
+     height:7vh;
+ }
+
+ .vision-voice{
+
+    width:75%;
+    display:flex;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:10vh;
+    margin-bottom: 10vh;
+    border: 2vh outset rgba(214, 14, 204, 0.6);
+    position: relative;
+
+ }
+
+ .vision-voice:hover{
+
+   border: 2vh outset rgba(14, 214, 74, 0.6);
+
+ }
+
+ 
+ #smooth-scrolling{
+
+    position:absolute;
+    top:50%;
+    right:0;
+    transform:translateY(-50%);
+ }
+
+ #smooth-scrolling>a{
+
+    background-color: rgb(240, 235, 235,0.2) ;
+    border: 0.1vh solid #fff;
+    border-radius:50%;
+    display: block;
+	margin: 10px;
+	height: 1vh;
+	width: 1vh;
+ }
+
+ #btnScrollToTop{
+
+    position:fixed;
+    right:5vh;
+    bottom:12vh;
+    width:7vh;
+    height:7vh;
+    border-radius:50%;
+    border:none;
+    background:rgba(214, 35, 11, 0.6);
+    box-shadow: 0 0 1vh rgba(0,0,0,1);
+    color: #fff;
+    outline:none;
+    cursor:pointer;
+
+ }
+
+ #btnScrollToTop:active{
+
+    background:rgba(182, 9, 145,0.6);
+ }
+ 
+
+
+
+
+  

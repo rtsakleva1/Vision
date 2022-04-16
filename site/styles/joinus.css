@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+html{
+
+    background: url(../images/trees2.jpg) no-repeat center center fixed; 
+    background-color: rgb(151, 149, 149);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:block;
+    scroll-behavior: smooth;
+}
+
+#page-container{
+
+    position:static;
+}
+
+.navbar{
+
+    height: 25vh;;
+    width: 100%;
+    background:rgba(0,0, 0, 0.5)
+}
+.logo{
+    width:50vh;
+    height:16vh;
+    padding-left:5vh;
+    padding-bottom: 2vh;
+    padding-top:4vh;
+    padding-right: 5vh;
+}
+.navbar ul{
+    float:right;
+    margin-right:5vh;
+
+}
+.navbar ul li{
+    list-style: none;
+    margin-top:10vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    display:inline-block;
+    line-height: 20vh;
+    position:relative;
+}
+.navbar ul li a{
+    text-align: center;
+    text-decoration:none;
+    color:#fff;
+    font-size:3.5vh;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar ul li a::after{
+
+    content:'';
+    height:0.5vh;
+    width:0;
+    background:rgba(122, 185, 3, 0.9);
+    position:absolute;
+    left:0;
+    bottom:7vh;
+    transition:1s;
+}
+
+.navbar ul li a:hover::after{
+    width:100%;
+}
+
+.text{
+    display: inline-block;
+    width:100%;
+    margin-top:2.5vh;
+    margin-bottom:5vh;
+    text-align: center;
+    color:#fff;
+
+}
+
+.text h1{
+
+    font-size: 15vh;
+    letter-spacing: 1vh;
+    text-shadow: 1vh 1vh rgba(122, 185, 3, 0.9);
+}
+
+.text>p{
+    font-size: 3vh;
+    text-align: center;
+    color:#fff;
+    background: rgba(0,0, 0, 0.2);
+    position:relative;
+
+}
+
+.button{
+    text-align:center;
+    margin-top:5vh;
+    margin-bottom: 10vh;
+    width:30vh;
+    padding: 2vh 0;
+    text-decoration:none;
+    font-size: 4vh;
+    border-radius:20vh;
+    font-weight:bold;
+    border: 0.5vh solid rgba(14, 214, 74, 0.6);
+    background-color: rgba(4, 66, 23, 0.9);
+    background-image: linear-gradient(to right,rgba(4, 66, 23, 0.9) , #CD3700);
+    cursor:pointer;
+    transition: 1s;
+
+}
+
+.button:hover{
+    background-color:rgba(14, 212, 47, 0.288) ;
+ }
+ 
+ a:link{
+     text-decoration: none;
+     
+ }
+ 
+ a:hover{
+     color:#fff;
+ }
+ 
+ a:visited{
+     color:#fff;
+ }
+ 
+.footer {
+    height: 10vh;
+    width:100%;
+    position:fixed;
+    left:0;
+    bottom:0;
+    box-sizing: border-box;
+    color:#fff;
+    font-size:2vh;
+    background-color:rgba(0,0, 0, 0.5);
+ }
+
+ #rights-text{
+
+    letter-spacing: 0.1vh;
+
+ }
+
+ .facebook{
+     width:7vh;
+     height:7vh;
+ }
+
+ #smooth-scrolling{
+
+    position:fixed;
+    top:50%;
+    right:0;
+    transform:translateY(-50%);
+ }
+
+ #smooth-scrolling>a{
+
+    background-color: rgb(240, 235, 235,0.9) ;
+    border: 0.1vh solid #fff;
+    border-radius:50%;
+    display: block;
+	margin: 10px;
+	height: 1vh;
+	width: 1vh;
+    cursor: pointer;
+    overflow-y:scroll;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling:touch;
+ }
+
+ #btnScrollToTop{
+
+    position:fixed;
+    right:5vh;
+    bottom:12vh;
+    width:7vh;
+    height:7vh;
+    border-radius:50%;
+    border:none;
+    background:rgba(14, 214, 74, 0.6);
+    box-shadow: 0 0 1vh rgba(0,0,0,1);
+    color: #fff;
+    outline:none;
+    cursor:pointer;
+    z-index:999;
+
+ }
+
+ #btnScrollToTop:active{
+
+    background:rgba(182, 9, 145,0.6);
+ }
+
+
+
+
