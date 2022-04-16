@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Festival</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./js/countDown.js"></script>
+    <script src="./js/buttonScrollToTop.js"></script>
+    <script src="./js/changeLanguageIndex.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <div id="page-container">
+        <div class="container">
+            <nav class="navbar">
+
+                <a href="./index.html"><img src="./images/visionlogo.png" class="logo" alt="">
+                </a>
+
+                <ul>
+
+                    <li><a href="./index.html" class="home">HOME</a></li>
+                    <li><a href="./pages/joinus.html">JOIN US</a></li>
+                    <li><a href="./pages/program.html">PROGRAM</a></li>
+                    <li><a href="./pages/location.html">LOCATION</a></li>
+                    <li><a href="./pages/aboutus.html">ABOUT US</a></li>
+                </ul>
+
+
+            </nav>
+
+            <button id="btnScrollToTop" onclick="topFunction()">
+                <i class="material-icons">arrow_upward</i>
+            </button>
+
+        </div>
+
+        <nav id="smooth-scrolling">
+            <a href="#page-container"></a>
+            <a href="#coming-soon"></a>
+            <a href=""></a>
+            <a href="#footer"></a>
+        </nav>
+
+        <section class="coming-soon" id="coming-soon">
+
+            <div>
+                <h2 class="headertext">Vision festival 2022</h2>
+                <div class="countdown">
+                    <div class="container-day">
+                        <h3 class="day">Time</h3>
+                        <h3>Days</h3>
+                    </div>
+
+                    <p class="colon">:</p>
+
+                    <div class="container-hour">
+                        <h3 class="hour">Time</h3>
+                        <h3>Hours</h3>
+                    </div>
+
+                    <p class="colon">:</p>
+
+
+                    <div class="container-minute">
+                        <h3 class="minute">Time</h3>
+                        <h3>Minutes</h3>
+                    </div>
+
+                    <p class="colon">:</p>
+
+
+                    <div class="container-second">
+                        <h3 class="second">Time</h3>
+                        <h3>Seconds</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="canvas"></div>
+
+        </section>
+
+
+
+
+
+
+        <div class="footer">
+            <div id="facebook"><a href="https://www.facebook.com/events/1890872331120895" target="_blank">
+                    <ion-icon name="logo-facebook" class="facebook"></ion-icon>
+                </a>
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            </div>
+
+            <div id="rights text">
+                <p>&#169 Vision Festival 2022. All Rights Reserved.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
