@@ -15,9 +15,12 @@ html {
     -o-background-size: cover;
     background-size: cover;
     scroll-behavior: smooth;
-  }
+ }
 
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 .navbar{
 
@@ -74,29 +77,11 @@ a:visited{
     color:#fff;
 }
 
-
-.h1{
-
-    font-size:15vh;
-    color:#fff;
-    text-shadow: 0.6vh 0.6vh rgba(182, 9, 145);
-    margin-left:65vh;
-    position:absolute;
-    top:40vh;
-    letter-spacing: 1vh;
-
-
-}
-
-
 iframe{
 
     
     display:block;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:50vh;
-    margin-bottom: 10vh;
+    margin:10vh auto;
     width: 180vh;
     height: 50vh;
     float: none;
@@ -117,7 +102,6 @@ iframe:hover{
 .text{
     display: inline-block;
     width:100%;
-    position:static;
     text-align: center;
     text-shadow: 0.6vh 0.6vh rgba(182, 9, 145);
 
@@ -126,8 +110,7 @@ iframe:hover{
 
  p{
     font-size: 3vh;
-    margin-left:auto;
-    margin-right:auto;
+    margin:0 10vh;
     text-align: center;
     color: #fff;
     text-shadow: 0.6vh 0.6vh 0.4vh rgba(6, 126, 66, 0.6);
@@ -148,7 +131,7 @@ iframe:hover{
     text-align: left;
  }
 
- #rights-text>p{
+ #rights>p{
 
     letter-spacing:0.1vh;
     color:#fff;
@@ -162,24 +145,6 @@ iframe:hover{
      height:7vh;
  }
 
- .festival-map{
-
-    width:75%;
-    height: 120vh;
-    display:flex;
-    margin-left:auto;
-    margin-right: auto;
-    margin-top:10vh;
-    margin-bottom: 10vh;
-    border: 2vh outset rgba(214, 14, 204, 0.6);
-    position: relative;
-
- }
-
- .festival-map:hover{
-    border: 2vh outset rgba(14, 214, 74, 0.6);
-
- }
 
  #smooth-scrolling{
 
@@ -222,16 +187,114 @@ iframe:hover{
     background:rgba(182, 9, 145,0.6);
  }
 
- #map-headertext{
-    text-align: center;
-    letter-spacing: 0.1vh;
-    margin:10vh;
-    font-size: 6vh;
+ h2{
+    font-size: 15vh;
+    letter-spacing: 1vh;
     color:#fff;
-   text-shadow: 0.8vh 0.8vh rgba(182, 9, 145,0.6);
-   position:relative;
+    text-shadow: 1vh 1vh rgba(214, 14, 204, 0.8);
+    margin:auto 10vh;
+    text-align: center;
+    margin-top: 10vh;
+ }
 
-}
+ @media screen and (max-width: 915px){
+
+    .navbar{
+
+        min-height: 80vh;
+        height:100%;
+        width:100%;
+        background:rgba(0,0, 0);
+        justify-content: center;
+
+
+    }
+
+    .navbar>ul{
+        width:100%;
+        position:absolute;
+        width: 75%;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+
+    }
+
+    .navbar ul li a{
+        text-align: center;
+        text-decoration:none;
+        float:right;
+        color:#fff;
+        font-size:5vw;
+        line-height: 0vh;
+        text-align: center;
+
+    }
+    .logo{
+        max-width:50vh;
+        width:70%;
+        max-height:16vh;
+        height:5%;
+        padding: 5vh 5vh;
+    }
+
+    .navbar ul li a::after{
+        opacity: 0;
+    }
+
+    .navbar ul li a:hover::after{
+        opacity: 0;
+    }
+
+    .footer {
+        height: 10vh;
+        width:100%;
+        position:static;
+        margin-left:0;
+        margin-bottom:0;
+        margin-right: 0;
+        box-sizing: border-box;
+        color:#fff;
+        background-color:rgba(0,0, 0, 0.7);
+        text-align: left;
+     }
+    
+     #rights{
+    
+        color:#fff;
+        font-size:2vw;
+        transform: translateX(-10vh);
+    
+     }
+    
+     .facebook{
+         width:7vh;
+         height:7vh;
+     }
+
+     iframe{
+
+        max-width:85%;
+        height:auto;
+
+    }
+
+    h2{
+
+        font-size:10vw;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        color:#fff;
+        text-shadow: 0.6vh 0.6vh rgba(182, 9, 145);
+        margin-top: 10vh;
+        letter-spacing: 1vh;
+    
+    }
+
+
+
+
  
 
 
