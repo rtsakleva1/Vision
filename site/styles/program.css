@@ -207,8 +207,8 @@ a:visited{
 
     text-align: center;
     letter-spacing: 0.3vh;
-    margin:20vh;
-    font-size: 11vh;
+    margin:10% auto;
+    font-size: 10vh;
     color:#fff;
    text-shadow: 0.6vh 0.6vh #CD3700;
 
@@ -329,6 +329,7 @@ a:visited{
      text-shadow: 0.2vh 0.2vh 0.4vh rgb(19, 18, 18);
      letter-spacing: 0.1vh;
      color:#CD3700;
+     margin-top:5%;
 
  }
 
@@ -372,14 +373,47 @@ a:visited{
     transition: 1s;
  }
 
- @media screen and (max-width: 915px){
+ .carouselFriday,
+ .carouselSaturday,
+ .carouselSunday{
+     margin: 20% 3%;
+     display:none;
+ }
+
+ .carousel-cell{
+     width:66%;
+     height:500px;
+     margin-right: 10px;
+     background-color: #b56576;
+     border-radius: 15px;
+     background-size: cover;
+     background-position: center center;
+ }
+
+ .carousel-cell:before{
+     display:block;
+     content: '';
+
+ }
+
+ a:visited{
+
+    color:#fff !important;
+ }
+
+ 
+
+ @media screen and (max-width: 1280px){
+
+
+    
 
    .navbar{
 
        min-height: 80vh;
        height:100%;
        width:100%;
-       background:rgba(0,0, 0);
+       background:rgba(0,0,0,0.8);
        justify-content: center;
 
 
@@ -400,7 +434,7 @@ a:visited{
        text-decoration:none;
        float:right;
        color:#fff;
-       font-size:5vw;
+       font-size:4.5vw;
        line-height: 0vh;
        text-align: center;
 
@@ -459,6 +493,43 @@ a:visited{
     
     
     }
+
+    .carouselFriday,
+    .carouselSaturday,
+    .carouselSunday{
+
+     display:block;
+ }
+
+ #galleryFriday,
+ #gallerySaturday,
+ #gallerySunday{
+     display:none;
+
+ }
+
+ h2{
+    text-align: center;
+    margin: auto;
+    font-size:3vw;
+    text-shadow: 0.2vh 0.2vh 0.4vh rgb(19, 18, 18);
+    letter-spacing: 0.1vh;
+    color:#CD3700;
+    margin-top:5%;
+
+}
+
+#line-up-header{
+
+    font-size: 6vh;
+
+ }
+
+ 
+
+    
+
+
 
  
  

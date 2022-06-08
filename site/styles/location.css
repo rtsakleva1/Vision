@@ -74,7 +74,7 @@ html, body {
 }
 
 a:visited{
-    color:#fff;
+    color:#fff !important;
 }
 
 iframe{
@@ -110,10 +110,11 @@ iframe:hover{
 
  p{
     font-size: 3vh;
-    margin:0 10vh;
+    margin:auto;
     text-align: center;
     color: #fff;
     text-shadow: 0.6vh 0.6vh 0.4vh rgba(6, 126, 66, 0.6);
+    overflow-wrap: break-word;
 
 
 }
@@ -123,8 +124,7 @@ iframe:hover{
     height: 10vh;
     width:100%;
     position:absolute;
-    margin-left:0;
-    margin-bottom:0;
+    margin:0;
     box-sizing: border-box;
     color:#fff;
     background-color:rgba(0,0, 0, 0.7);
@@ -192,19 +192,19 @@ iframe:hover{
     letter-spacing: 1vh;
     color:#fff;
     text-shadow: 1vh 1vh rgba(214, 14, 204, 0.8);
-    margin:auto 10vh;
+    margin:10vh auto;
     text-align: center;
     margin-top: 10vh;
  }
 
- @media screen and (max-width: 915px){
+ @media screen and (max-width: 1280px){
 
     .navbar{
 
         min-height: 80vh;
         height:100%;
         width:100%;
-        background:rgba(0,0, 0);
+        background:rgba(0,0, 0,0.8);
         justify-content: center;
 
 

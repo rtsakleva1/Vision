@@ -31,7 +31,7 @@ html, body {
 
     height: 25vh;;
     width: 100%;
-    background:rgba(0,0, 0, 0.5)
+    background:rgba(0,0, 0, 0.5);
 }
 .logo{
     width:50vh;
@@ -59,7 +59,7 @@ html, body {
     text-align: center;
     text-decoration:none;
     color:#fff;
-    font-size:5vw;
+    font-size:3.5vh;
     font-family: 'Open Sans', sans-serif;
 }
 .navbar ul li a::after{
@@ -67,7 +67,7 @@ html, body {
     content:'';
     height:0.5vh;
     width:0;
-    background:rgba(122, 185, 3, 0.9);
+    background:rgba(214, 35, 11, 0.6);
     position:absolute;
     left:0;
     bottom:7vh;
@@ -76,6 +76,11 @@ html, body {
 
 .navbar ul li a:hover::after{
     width:100%;
+}
+
+
+a:visited{
+    color:#fff !important;
 }
 
 .text{
@@ -88,14 +93,14 @@ html, body {
 
 }
 
-.text h1{
+h1{
 
     font-size: 15vh;
     letter-spacing: 1vh;
     text-shadow: 1vh 1vh rgba(122, 185, 3, 0.9);
 }
 
-.text>p{
+p{
     font-size: 3vh;
     text-align: center;
     color:#fff;
@@ -208,14 +213,14 @@ html, body {
     background:rgba(182, 9, 145,0.6);
  }
 
- @media screen and (max-width: 915px){
+ @media screen and (max-width: 1280px){
 
     .navbar{
 
         min-height: 80vh;
         height:100%;
         width:100%;
-        background:rgba(0,0, 0);
+        background:rgba(0,0, 0,0.8);
         justify-content: center;
 
 
@@ -270,7 +275,7 @@ html, body {
     
      }
 
-     .text h1{
+     h1{
 
         font-size: 12vw;
         letter-spacing: 1vh;
@@ -279,12 +284,13 @@ html, body {
 
     }
 
-    .text>p{
+    p{
         font-size: 5vw;
         text-align: center;
         margin:1vh;
     
     }
+ }
 
 
 
